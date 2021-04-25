@@ -1,0 +1,38 @@
+window:
+  dimensions:
+    columns: 100
+    lines: 80
+  position:
+    x: 0
+    y: 0
+  decorations: buttonless
+
+font:
+  normal:
+    family: Hack
+    style: Regular
+    size: 11.0
+
+  bold:
+    family: Hack
+    style: Bold
+    size: 11.0
+  
+  italic:
+    family: Hack
+    style: Italic
+    size: 11.0
+
+  bold_italic:
+    family: Hack
+    style: BoldItalic
+    size: 11.0
+
+background_opacity: 0.6
+
+cursor:
+  style: Beam
+  unfocused_hollow: true
+
+key_bindings:
+  - { key: N, mods: Command, action: SpawnNewInstance }
