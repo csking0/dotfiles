@@ -1,0 +1,11 @@
+[Common]
+OutlineCloseButton=false
+ShadowStrength=89
+
+[Style]
+MenuOpacity=30
+
+[Windeco]
+ButtonSize=8
+DrawTitleBarSeparator=false
+DrawTitleBarSeparator=false
