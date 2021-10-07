@@ -1,7 +1,7 @@
 alias top='gotop-cjbassi -ps'
 alias csil='ssh csking@csil-23.cs.ucsb.edu'
-alias work='cd ~/School/3undergrad; ls'
-alias xclip='xclip -sel clip'
+alias work='cd ~/School/4undergrad; ls'
+# alias xclip='xclip -sel clip'
 alias zotero='bash /usr/share/zotero/zotero > /dev/null 2>&1 &'
 
 # wallpaper scripts below
