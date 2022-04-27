@@ -60,7 +60,7 @@ if [ "$color_prompt" = yes ]; then
     # the original basic prompt is below
     # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ '
     PS1='\[\e[38;5;15m\]\[\e[48;5;127m\] \u@\h \[\e[38;5;127m\]\[\e[48;5;225m\] \[\e[38;5;0m\]\[\e[48;5;225m\]\w \[\e[38;5;225m\]\[\e[48;5;236m\] \[\e[38;5;15m\]\[\e[48;5;236m\]\$ \[\e[0m\]\[\e[38;5;236m\] \[\e[0m\]'
-    PROMPT_COMMAND="eval printf %.0s- {1..120}; printf '\n'"
+    PROMPT_COMMAND="eval printf %.0s─ {1..120}; printf '\n'"
 
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
