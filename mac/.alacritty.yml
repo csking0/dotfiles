@@ -6,6 +6,7 @@ window:
     x: 0
     y: 0
   decorations: buttonless
+  opacity: 0.6
 
 font:
   normal:
@@ -27,8 +28,6 @@ font:
     family: Hack
     style: BoldItalic
     size: 11.0
-
-background_opacity: 0.6
 
 cursor:
   style: Beam
