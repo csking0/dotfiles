@@ -1,0 +1,14 @@
+window:
+  dimensions:
+    lines: 75
+    columns: 250
+  opacity: 0.99
+
+cursor:
+  style: Beam
+  unfocused_hollow: true
+
+key_bindings:
+  - { key: N, mods: Command, action: SpawnNewInstance }
+  - { key: Left, mods: Command, chars: "\x1bb" }
+  - { key: Right, mods: Command, chars: "\x1bf" }
